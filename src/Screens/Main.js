@@ -22,6 +22,10 @@ const Main  = (props)=>{
             <Text style={styles.txt}>press to see reducer imp</Text>
             </TouchableOpacity>
 
+            <TouchableOpacity style={styles.btn} onPress={()=>props.navigation.navigate('rcount')}>
+            <Text style={styles.txt}>count using reducer</Text>
+            </TouchableOpacity>
+
            {/* <Button style={styles.btn} title="press->COUNTER" onPress={()=>props.navigation.navigate('count')}/>
             <Button style={styles.btn} title="press->Flat" onPress={()=>props.navigation.navigate('flat')}/>
     <Button style={styles.btn} title="press->get new color" onPress={()=>props.navigation.navigate('newcolor')}/>*/}

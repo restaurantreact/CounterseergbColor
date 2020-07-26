@@ -7,6 +7,7 @@ import UsingFlatlist from './src/Screens/UsingFlatlist'
 import Main from './src/Screens/Main'
 import GetNewColor from './src/Screens/GetNewColor'
 import ReducerScreen from './src/Screens/ReducerScreen'
+import CounterUsingReducer from './src/Screens/CounterUsingReducer'
 
 
 const navigator = createStackNavigator(
@@ -15,7 +16,8 @@ const navigator = createStackNavigator(
     flat:UsingFlatlist,
     mm:Main,
     newcolor:GetNewColor,
-    reduce:ReducerScreen
+    reduce:ReducerScreen,
+    rcount:CounterUsingReducer
   },
   {
     initialRouteName:'mm',
